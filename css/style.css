@@ -1,0 +1,450 @@
+
+@import url("https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600");
+/*
+	Industrious by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+*/
+/* Basic */
+body {
+  margin: -100;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("../media/pictures/mainbackground.jpg");
+  background-size: 1700px
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #d10d58;
+  border: 2px solid black;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 20px;
+  transition: .5s;
+}
+
+#navbar a:hover {
+  background-color: #ff698e;
+  color: #ffffff;
+}
+
+#navbar .active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #d10d58; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #960073; 
+}
+
+#whois {
+    margin: 20px;
+    padding: 20px;
+    background-color: #616161;
+    font-family: "Raleway";
+    color: #f2f2f2;
+}
+
+#whois a:link, a:visited{
+  color: #ff3bd1; 
+  background-color: transparent; 
+  text-decoration: none;
+}
+
+#whois a:hover, a:active {
+  background-color: white;
+}
+
+#opinions {
+  margin: 20px;
+  padding: 20px;
+  color: #f2f2f2;
+  font-family: "Raleway";
+  background-color: #616161;
+  text-align: center;
+}
+
+#opinions h2{
+  text-align: center;
+}
+
+#quotes {
+  margin: 20px;
+  padding: 20px;
+  color: #f2f2f2;
+  font-family: "Raleway";
+  background-color: #616161;
+  text-align: center;
+}
+
+#quotes h3{
+  text-align: center;
+}
+
+#socialmedia {
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  color: #f2f2f2;
+  font-family: "Raleway";
+  background-color: #616161;
+  text-align: center;
+}
+
+#socialmedia li {
+  list-style: none;
+  margin: 10px 30px;
+  display: inline-block;
+  font-size: 20px;
+  padding: 15px 20px;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  transition: .5s;
+}
+
+#socialmedia li:hover {
+  color: #ff3bd1;
+}
+
+
+#socialmedia .fa-twitter {
+  color: #55ACEE;
+}
+
+
+#socialmedia .fa-twitch {
+  color: #6441A4;
+}
+
+#socialmedia .fa-youtube {
+  color: #bb0000;
+}
+
+#socialmedia .fa-reddit {
+  color: #ff5700;
+}
+
+#leaderboard {
+  margin-top: 20px;
+  margin-right: 200px;
+  margin-left: 200px;
+  padding: 20px;
+  color: #f2f2f2;
+  font-family: "Raleway";
+  background-color: #616161;
+}
+
+#leaderboard img {
+  border:2px solid #ff3bd1;
+  }
+
+  #incidents {
+    margin: 20px;
+    padding: 20px;
+    background-color: #616161;
+    font-family: "Raleway";
+    color: #f2f2f2;
+}
+
+#incidentexamples {
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  color: #f2f2f2;
+  font-family: "Raleway";
+  background-color: #616161;
+  text-align: center;
+}
+
+#listskins {
+  margin: 20px;
+  padding: 20px;
+  color: #f2f2f2;
+  font-family: "Raleway";
+  text-align: center;
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  background-color: #616161;
+  padding: 15px;
+  text-align: center;
+}
+
+div.desc a:link {
+  color: #ff3bd1;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#aboutme {
+  margin-top: 20px;
+  margin-right: 200px;
+  margin-left: 200px;
+  padding: 20px;
+  color: #f2f2f2;
+  font-family: "Raleway";
+  background-color: #616161;
+}
+
+#aboutme a:link {
+  text-decoration: none;
+  color: #ff3bd1;
+}
+
+#aboutme a:hover {
+  text-decoration: underline;
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+@-ms-viewport {
+  width: device-width; }
+body {
+  -ms-overflow-style: scrollbar; }
+
+
+
+html, body, div, span, applet, object,
+iframe, h2, h3, h4, h5, h6, p, blockquote,
+pre, a, abbr, acronym, address, big, cite,
+code, del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b,
+u, i, center, dl, dt, dd, ol, ul, li, fieldset,
+form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td, article, aside,
+canvas, details, embed, figure, figcaption,
+footer, header, hgroup, menu, nav, output, ruby,
+section, summary, time, mark, audio, video {
+  margin: -20;
+  padding: 400;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+
+
+/* Typography */
+
+
+
+body, input, select, textarea {
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.65; }
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300;
+  line-height: 1.5;
+  text-transform: uppercase;
+  margin: 0 0 1.5rem 0; }
+  h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    color: inherit;
+    text-decoration: none; }
+
+
+#banner {
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  background-color: #111111;
+  color: rgba(255, 255, 255, 0.5);
+  -moz-align-items: center;
+  -webkit-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -moz-justify-content: center;
+  -webkit-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+  background-image: url("../../images/banner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: 0;
+  display: -ms-flexbox;
+  height: 35rem !important;
+  min-height: 35rem;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 100%; }
+
+
+
+
+
+    #banner .testimonials .content .credit strong {
+      color: #ff3bd1; }
+  #banner > .inner {
+    -moz-transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+    -ms-transform: scale(1.0);
+    transform: scale(1.0);
+    -moz-transition: opacity 1s ease, -moz-transform 1s ease;
+    -webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
+    -ms-transition: opacity 1s ease, -ms-transform 1s ease;
+    transition: opacity 1s ease, transform 1s ease;
+    opacity: 1;
+    position: relative;
+    z-index: 3; }
+    #banner > .inner > :last-child {
+      margin-bottom: 0; }
+  #banner h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem; }
+  #banner p {
+    font-size: 1.5rem; }
+  #banner a {
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none; }
+    #banner a:hover {
+      color: #ffffff; }
+  #banner video {
+    -moz-transform: translateX(50%) translateY(50%);
+    -webkit-transform: translateX(50%) translateY(50%);
+    -ms-transform: translateX(50%) translateY(50%);
+    transform: translateX(50%) translateY(50%);
+    bottom: 50%;
+    height: auto;
+    min-height: 100%;
+    min-width: 100%;
+    overflow: hidden;
+    position: absolute;
+    right: 50%;
+    width: auto; }
+
+  #banner:after {
+    background: linear-gradient(135deg, #ff3bd1 0%, #111111 74%);
+    content: ' ';
+    display: block;
+    height: 100%;
+    left: 0;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    webkit-linear-gradientidth: 100%;
+    width: 100%;
+    z-index: 1; }
+  #banner.small {
+    height: 30vh !important;
+    min-height: 30vh; }
+  @media screen and (max-width: 1280px) {
+    #banner video {
+      display: none; } }
+  @media screen and (max-width: 736px) {
+    #banner {
+      height: auto !important;
+      min-height: 0;
+      padding: 4rem 2rem 4rem 2rem; }
+      #banner .inner {
+        width: 100%; }
+      #banner h1 {
+        font-size: 1.75rem;
+        margin-bottom: 0.5rem;
+        padding-bottom: 0; }
+      #banner p {
+        font-size: 1.25rem; }
+      #banner br {
+        display: none; }
+      #banner .button {
+        width: 100%; } }
+  @media screen and (max-width: 480px) {
+    #banner p {
+      font-size: 1rem; } }
+  body.is-preload #banner .inner {
+    -moz-transform: scale(0.99);
+    -webkit-transform: scale(0.99);
+    -ms-transform: scale(0.99);
+    transform: scale(0.99);
+    opacity: 0; }
+  body.is-preload #banner:before {
+    opacity: 1; }
+
+
+ 
+
+
+
+     
